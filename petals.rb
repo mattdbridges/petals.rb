@@ -7,7 +7,7 @@ class Die
   # Obfuscated score calculation.
   # Decrypt this without already knowing the game, you are a thieving cheater. Good luck....
   def score
-    (@val > (((0x1FFF / 100) / 9) - 7) && @val < (((0b10001.object_id + 1)/10).floor * 2)  - 2 ? 2 : (@val == 0b101 ? (0b10100/2.object_id) : (0**0) - 1))
+    (@val > (((0x1FFF / 100) / 9) - 7) && @val < (((0b100011 + 1)/10).floor * 2)  - 2 ? 2 : (@val == 0b101 ? (0b10100/0b101) : (0**0) - 1))
   end
 
   def to_s
